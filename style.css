@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+header {
+    padding: 32px;
+}
+.logo {
+    text-align: center;
+}
+.icon {
+    font-size: 32px;
+    color: #32CD32;
+    margin-right: 8px;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+    display: inline;
+}
+.hero {
+    background-image: url("assets/pexels-robin-stickel-70497.jpeg");
+    background-size: cover;
+    background-position: center center;
+    padding: 64px 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.container {
+    padding: 64px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 32px;
+    row-gap: 32px;
+}
+a {
+    text-decoration: none;
+}
+.image-container {
+    background-size: cover;
+    background-position: center center;
+    min-height: 256px;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.image-container:hover {
+    filter: brightness(50%);
+}
+.like {
+    color: red;
+    float: right;
+    font-size: 24px;
+    margin: 12px;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: black!important;
+    margin: 16px 0px 0px 0px;
+}
+h3:hover {
+    text-decoration: underline;
+}
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: grey!important;
+    margin: 0px 0px 8px 0px;
+}
+.rating {
+    color: #32CD32!important;
+}
+footer {
+    background-color: lightgrey;
+    padding: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
